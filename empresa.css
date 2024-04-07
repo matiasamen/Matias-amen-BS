@@ -1,0 +1,128 @@
+body{background-image:url(./img/360_F_124760316_HWHuMfW85Ov0wqQ1iXu3ztKCTryKC30J.jpg);
+    background-size: 100%; 
+    background-position: center center; 
+    background-repeat: repeat;
+    backdrop-filter: blur(4px);
+}
+.logo{
+    height: 50px;
+    }
+    .navbar{background-color: rgb(0, 0, 0); 
+    padding: 30px;} 
+    .nav-link {color: rgb(188, 148, 28) !important;}
+
+    .services-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .service {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(177, 176, 176, 0.479);
+    }
+    
+    .service img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2{color: rgb(188, 148, 28);
+    text-shadow: 10px 10px 25px #c3c306 ;
+-webkit-text-stroke: 2px rgb(34, 34, 1)}
+    
+h3{color: rgb(188, 148, 28);
+        -webkit-text-stroke: 1px rgb(34, 34, 1)}
+
+        p{color:rgb(124, 115, 115);
+        font-size: 20px;}
+
+    footer p{color: rgb(188, 148, 28);
+        font-size: 17px;
+    text-align: end;
+font-family: fantasy;}
+
+    footer{background-color: rgb(23, 23, 24);
+        padding: 30px 0;
+        text-align: right;}
+
+        .contenedor {
+            overflow: hidden;
+        }
+        
+        .imagen {
+            width: 200px; height: auto;
+            float: left; 
+            margin-right: 20px;
+        }
+        
+        p {
+            margin-left: 10px; 
+        color:rgb(0, 0, 0)
+        ;}
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    
+        .contenedor {
+            flex: 1;
+        }
+        .contenedor p {font-size: 1.3rem;
+            font-weight: bold;
+        justify-content: center;
+    -webkit-text-stroke: 1.1px rgb(103, 103, 103);}
+        p strong{color: rgb(188, 148, 28);
+        }
+
+    .redes{text-align: center;}
+
+
+footer .redes a {
+    color: rgba(171, 171, 169, 0.641);
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;}
+
+    .tituloRedes{color: rgba(171, 171, 169, 0.641);}
+    .container p{text-align: left;}
+    .tituloRedes{text-align: center;}
+    body a{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+
+
+    .imagen {
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        margin-bottom: 70px; 
+    }
+    
+    .contenedor p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 30px; }
+
+    nav a:hover{color:white !important}
+
+    @media (max-width: 575px) {
+        .navbar {
+            padding: 10px;
+        }
+        .contenedor{
+            width: calc(100% - 30px);
+            margin: 10px;
+        }
+    }
+
+
+
